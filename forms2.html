@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="./forms2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script>
+        cost time 
+    </script>
+</head>
+<body>
+    <div class="nav">
+        <a href="#header">intro</a>
+    
+        <a href="#form">form</a>
+        <a href="#link">link</a>
+
+    </div>
+    <div id="header">
+             <h3><b>Web programming practicals</b></h3>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem cum, consectetur dolore eveniet eligendi quidem, ab culpa ducimus a nemo rerum doloremque quibusdam ipsum itaque delectus deleniti laboriosam saepe explicabo nobis dolor, earum quas sit adipisci. Provident, incidunt dolor sequi maiores, cumque dolores repellendus earum similique optio hic ea? Repellat, tenetur necessitatibus eos non voluptas, consequuntur vero inventore, maiores veritatis quas similique praesentium molestias consequatur ipsam sed? Modi error accusamus, magnam aliquid quo cumque accusantium placeat. Adipisci vitae dolorem facere voluptatem et excepturi odio, eos pariatur totam deserunt ratione aspernatur temporibus, vel labore, aut explicabo asperiores quam iure perferendis omnis accusantium. Alias modi, vitae quia delectus repudiandae, quasi necessitatibus laboriosam aperiam velit, aut obcaecati voluptate cumque. Natus, ipsum quo beatae earum pariatur possimus provident! Sapiente dolor nesciunt sint, laborum corporis magni amet minima voluptas tempora modi. Sit soluta magnam temporibus praesentium, harum dolore, mollitia tempora aut labore explicabo quae nobis ea quaerat officiis nihil ducimus deleniti expedita itaque eveniet! Officiis ea praesentium alias unde, iusto aliquam facilis sit a voluptate et aut architecto commodi! Error ad in praesentium architecto vero, reiciendis inventore porro quis deserunt, odit obcaecati quo debitis repellendus hic necessitatibus quos numquam accusantium fugit corrupti labore et nostrum recusandae tenetur. Neque eaque eveniet exercitationem quisquam, non modi maiores ipsum temporibus mollitia magnam nam illum consequatur ullam omnis qui deleniti maxime possimus odit praesentium quasi magni eum expedita ratione eos? Esse quo ex ducimus quasi laboriosam id ab, soluta ipsam, vero, vel excepturi dolorem veritatis alias natus. Molestiae necessitatibus consequuntur quae! Sint nostrum culpa et, reiciendis iure nisi optio, ea cupiditate voluptatum dolorum velit facere voluptate ipsa mollitia, laborum totam fugiat quasi molestiae error quis iste illum soluta voluptas. Debitis possimus molestias corrupti accusamus autem soluta ipsum, reprehenderit totam pariatur laboriosam. Est repellendus deleniti obcaecati veritatis iste amet totam?</p>
+             <p><b>1.Forms</b></p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tenetur recusandae officiis aut illo omnis alias exercitationem ullam magnam, assumenda error commodi doloribus obcaecati ex perspiciatis labore ipsum reiciendis, eveniet repellat veritatis! Repellat quidem atque quam voluptates minima earum delectus doloribus mollitia recusandae inventore culpa ut rerum exercitationem fugit ducimus eos dicta ullam, doloremque veritatis dolorem. Ratione consequuntur, ipsa sequi commodi debitis necessitatibus quas sunt pariatur ipsum nobis vitae corrupti aliquam provident nulla delectus suscipit nostrum ab magnam repudiandae accusamus consectetur reprehenderit. Quasi obcaecati explicabo nostrum quia atque dolorum vero, voluptates dolores ipsa ratione voluptatibus neque in, dolor hic repellendus.</p>
+             <p><b>Design the form below as it is</b></p>
+    </div>
+    <div id="form">
+        <form action="#" method="pos   t" class="form">
+               <h1><b>Researvation Request</b></h1>
+            <fieldset>
+
+   
+        <legend><p><b> general information</b></p></legend>
+         <label for="arrive">Arrival date:</label>
+          <input type="date-time"  placeholder="12/39/2016"> Arrival date is invalid
+          <br>
+          <label for="nights">Nights:</label>
+          <input type="number" placeholder="three"> Nights must be a number
+          <br>
+         <label for="adults">Adults:</label>
+          <select name="adults" id="Adults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+          </select>
+             <br>
+         <label for="children">Children</label>
+          <select name="children" id="Children" size="1">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>s
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+          </select>
+          </fieldset>
+        
+        <fieldset>
+          <legend><p><b>preferences</b></p></legend>
+          <label for="room">Room type:</label>
+          <input type="radio" name="room" value="standard"><label for="standard">Standard</label>
+          <input type="radio" name="room" value="business"><label for="business">Business</label>
+          <input type="radio" name="room" value="suites"><label for="suites">Suite</label>
+      <br>
+           <label for="bed">Bed type:</label>
+          <input type="radio" name="bed" value="king"><label for="king">King</label>
+          <input type="radio" name="bed" value="double"><label for="double">Double Double</label> <br>
+          <input type="checkbox"> <label for="smoking">Smoking</label>
+          <br>
+          </fieldset>
+          <fieldset>
+          <legend><p><b>contact information</b></p></legend>
+          <br>
+          <label for="name">Name</label>
+          <input type="text"> Name is required
+          <br>
+          <label for="email">Email</label>
+          <input type="email" placeholder="graceyahoo.com"> Email address is invalid
+          <br>
+          <label for="phone">Phone</label>
+          <input type="tel" placeholder="123-456-789"> Phone number is invalid
+
+          <br>
+          </fieldset>
+          <br>
+      <div >
+          <input type="submit" value="Submit Reservation" class="div3">        <input type="reset" value="clear" class="div4">                                                      
+          
+      </div>    
+ 
+
+          
+         
+
+
+     </form>
+     </div>
+     <div id="link">
+     <h1>new work</h1>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error autem natus laborum quasi dolores eaque quo? Illo obcaecati, distinctio provident incidunt quaerat quia voluptatem consequatur, facilis quo sequi asperiores suscipit!
+         <h2>my links</h2>
+         <a href="google.com">google search</a> <br>
+         <a href="yahoo.com">yahoo search</a>
+     </p>
+     <p>to see this arsenal highlights on arsenal website</p>
+     <a href="https://www.arsenal.com/">arsenal website</a>
+     <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid at officia ipsa, praesentium molestiae eligendi facilis dolorem ducimus dicta sed optio repellendus voluptatem ea nihil, unde ad ratione aspernatur numquam labore cum, quo tempora cupiditate odit consectetur! Quos, iste vero. Eveniet itaque recusandae eos distinctio deleniti, iure quia placeat aperiam alias animi possimus aliquid voluptatibus ea nisi voluptate a, sit commodi aut architecto ex. Possimus voluptatibus asperiores, molestiae delectus inventore veniam doloribus molestias recusandae, qui consequuntur repellat, impedit enim. Amet exercitationem saepe deleniti nesciunt harum debitis necessitatibus, nihil molestiae, consequuntur sequi suscipit tenetur, doloribus optio sunt. Commodi assumenda sapiente eos illum qui error iure eveniet distinctio, earum officiis provident nihil placeat rem dolorum eligendi doloremque atque beatae molestias quaerat maiores dicta expedita. Tempore distinctio labore provident ducimus, iusto quam sequi accusantium vitae, tempora voluptatum quidem hic fuga sit iure. Voluptatum tenetur facilis vero earum esse, obcaecati doloribus accusamus libero exercitationem reprehenderit, dolores, quam laudantium quae cumque labore! Consectetur, amet! Nam aliquam expedita impedit illo excepturi! Eius, sunt voluptates neque distinctio earum nam mollitia? Inventore eos fuga modi sapiente accusamus omnis unde at corporis totam assumenda? Laboriosam error eum reiciendis perferendis sit esse illum, dolorem est repudiandae consequuntur, deleniti nulla tempore ratione porro voluptate maiores vero! Ducimus aliquid fuga, officia libero distinctio quasi voluptates quo incidunt sit delectus assumenda eum culpa nam labore debitis dicta, odio facere et doloremque commodi. Veniam, quis possimus corporis temporibus maiores quaerat libero sint obcaecati doloribus ad rerum error, aliquid, quisquam eveniet. Assumenda, eos! Veritatis repellat, quia, eum blanditiis odit, officia maiores harum dolorum accusantium reiciendis corporis quibusdam placeat similique. Sint asperiores cumque neque omnis consectetur sequi, pariatur nihil doloribus. Dolore provident molestias, rem culpa obcaecati saepe suscipit. Odio, quidem pariatur exercitationem eum ut, inventore sapiente accusamus repudiandae, voluptatibus quibusdam suscipit delectus possimus doloribus consequuntur omnis.</P>
+
+     </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, laboriosam iusto voluptates aspernatur maxime laudantium accusantium tempore, harum eos, ex voluptate cumque sint nisi tempora libero at. Maiores blanditiis, tempore iusto praesentium eos quae hic ad necessitatibus expedita eveniet dolorum impedit commodi unde totam illum odio alias quibusdam quos, ducimus consequuntur atque repellat dolore earum nobis. Minima eveniet impedit tempore velit alias nam asperiores? Debitis facere, aut dolore tempore sed id optio rem, vel animi amet deleniti culpa quasi! Dolores at repellendus illum pariatur consequuntur aut rerum earum eligendi facilis sunt vero iste veniam nulla hic, officia perspiciatis enim nemo, sapiente, eaque fugiat optio iure sequi. Modi aut vel minus eaque sequi magnam est laborum, atque nisi? Officia doloribus sint quas tempora perspiciatis et, nulla totam doloremque ducimus beatae laborum. Veritatis iusto reprehenderit nihil recusandae harum minus soluta, similique tempora, libero distinctio illo quia sit! Quae inventore molestiae deleniti rerum quam corporis ipsa voluptatibus excepturi suscipit officia? Nulla molestiae vel tempora ab illo delectus dignissimos similique beatae, aliquid iusto esse mollitia soluta ullam at laborum laudantium culpa reiciendis voluptatem non iure dolores iste repellat nam animi! Nesciunt, error placeat dicta animi officiis ex totam accusamus atque eos explicabo! Doloremque exercitationem a nam aliquid eos reprehenderit, facilis, odio explicabo ex incidunt ipsam saepe ab quo? Harum illum aliquid distinctio repellendus, aperiam suscipit. Blanditiis quibusdam, perspiciatis saepe alias voluptatibus corrupti vitae ea iste, eveniet delectus atque, illum facilis consequatur. Qui quaerat, dicta perspiciatis at quo ab soluta et cumque animi, earum aut culpa rerum odit? Esse voluptate consectetur sit ad quisquam odit repellat at! Temporibus nihil velit, iure error qui animi cumque harum dolore optio quas ab veritatis repellendus, unde eaque eius, molestiae minima quibusdam. Sint explicabo perferendis eaque quis doloribus modi quaerat tempore quibusdam corporis sapiente maiores, nobis iste hic harum id consequuntur officiis recusandae, mollitia quia est ad, atque neque. Blanditiis debitis illum numquam voluptas sequi esse alias omnis quidem sint ipsa at suscipit voluptatem perferendis tempora dicta, repellat praesentium veniam ad dolorem doloremque vel totam doloribus incidunt. Officiis rem veritatis doloribus rerum provident ducimus architecto error ipsum, vitae assumenda id. Excepturi molestias incidunt vitae perspiciatis! A nisi vitae accusantium odio inventore ipsum adipisci aperiam ducimus quos velit. Vitae quas obcaecati cupiditate recusandae, explicabo sequi quam odit, consequuntur eos aliquam saepe eligendi assumenda perspiciatis nemo nesciunt? Perferendis corporis cumque et vitae rem placeat dolore eveniet natus quaerat, at illum, reiciendis, animi velit est nemo. Cupiditate nihil beatae enim ea labore nisi repellat vitae iste quam totam ratione hic libero excepturi animi rerum porro temporibus quasi, nam nostrum molestias doloribus laudantium ducimus delectus adipisci. Voluptates ea quaerat fugit. Enim deleniti dignissimos reiciendis nemo praesentium molestias quis recusandae exercitationem rerum? Cum tempora voluptatum corporis nemo provident veniam nulla nobis architecto, earum facere eaque ex voluptatem. Quia, quae quis quo ea iure corporis temporibus autem ab numquam, magni doloribus accusamus iste mollitia, alias praesentium. Tenetur molestiae, eligendi sit ratione cumque dolorem, debitis eius consequuntur, ex fugit accusamus voluptas harum qui similique quae illum.
+      </p>
+
+       
+  <div class="nav">
+        <a href="#header">intro</a>
+        <a href="#form">form</a>
+        <a href="#link">link</a>
+
+    </div>
+   
+</body>
+</html>
