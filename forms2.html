@@ -9,11 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <script>
-       
-     const x = () =>{
-         return "HELLO THERE"
-    </script>
+   
 
 </head>
 <body>
@@ -22,7 +18,13 @@
        <a href="#form">form</a>
        <a href="#link">link</a>
        <br>
-       <button onclick="x()">click me</button>
+        <h1  ></h1>
+         <script type="text/javascript">
+           y ="am learning javascript"
+           document.write(y)
+           var x = prompt("what is your name: ");
+           document.write(x);
+    </script>
 
     </div>
     <div id="header">
@@ -128,6 +130,27 @@
         <a href="#link">link</a>
 
     </div>
+      <form action="#">
+       <input type="text" name="name" id="name"> 
+       <select name="type" id="type" onchange="showChange()">
+           <option value="1">one</option>
+           <option value="2">two</option>
+           <option value="3">three</option>
+       </select>
+       <button value="button" onclick="showValue()" type="button">click me here</button>
+
+  
+    </form>
    
 </body>
+
+<script type="text/javascript">
+const showValue = () => {
+        var name = document.getElementById("name").value
+        document.write(name) ;}
+const showChange = () => {
+        var type = document.getElementById("type").value
+         alert(type);
+}
+  </script>
 </html>
