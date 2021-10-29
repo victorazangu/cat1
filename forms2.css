@@ -1,5 +1,5 @@
 *{ 
-  font-family: 'Pacifico', cursive;
+  /* font-family: 'Pacifico', cursive; */
 }
 body {
    
@@ -26,14 +26,19 @@ input {
    
     
 }
-legend > input {
+/* legend > input {
     align:justify;
-}
+} */
 .nav {
-     text-decoration:none;
+    
     font-size: 80px;
     font-weight: bolder;
     text-decoration-style: dotted;
+    text-transform: capitalize;
+    text-align: left;
+    text-transform: unset;
+    text-underline-position: dotted;
+    text-decoration: none;
 }
 #header{
      background-image: url("./image1.jpg");
